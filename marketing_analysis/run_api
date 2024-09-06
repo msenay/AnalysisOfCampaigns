@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Run tests
+echo "Running tests..."
+python manage.py test
+if [ $? -ne 0 ]; then
+    echo "Tests failed. Server will not start."
+    exit 1
+fi
+
+# Start the Django server
+echo "Django server is starting..."
+exec python manage.py runserver 0.0.0.0:8000
