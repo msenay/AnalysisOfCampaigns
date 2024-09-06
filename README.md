@@ -30,7 +30,7 @@ Prerequisites
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/meta-campaign-analysis-api.git](https://github.com/msenay/AnalysisOfCampaigns.git
+git clone https://github.com/msenay/AnalysisOfCampaigns.git
 ```
 ```bash
 cd marketing_analysis
